@@ -1,25 +1,87 @@
 {
-  "seo": {
-    "title": "Luxor Foto y Video | Fotografía, Video y Cabinas para Eventos",
-    "description": "Servicios profesionales de fotografía, video y cabinas interactivas para bodas, XV años, bautizos, eventos sociales y corporativos. Más de 25 años de experiencia en CDMX.",
-    "keywords": "fotografía y video para eventos CDMX, cabina 360 para eventos, cabina fotográfica XV años, fotógrafo bodas CDMX, video eventos empresariales, cabina espejo eventos, cabina inflable fiestas",
-    "og_title": "Luxor Foto y Video | Fotografía, Video y Cabinas para Eventos",
-    "og_description": "Más de 25 años capturando momentos únicos. Fotografía, video y cabinas interactivas para eventos sociales y corporativos en CDMX."
+  "alianzas": {
+    "eyebrow": "Alianzas estratégicas",
+    "pill": "Para salones & empresas",
+    "titulo": "Socios de confianza para <em>cada venue</em>",
+    "texto": "Creamos alianzas estratégicas con salones, venues y empresas para ofrecer fotografía, video, cabinas interactivas, contenido digital y experiencias visuales para sus eventos. Tus clientes merecen un servicio de primer nivel.",
+    "cita": "Nuestro equipo trabaja de la mano con cada venue para garantizar una experiencia visual de primer nivel en cada evento que organizan.",
+    "tags": [
+      "Salones de Eventos",
+      "Empresas Corporativas",
+      "Agencias de Eventos",
+      "Hoteles & Venues"
+    ],
+    "btn_texto": "Solicitar propuesta de alianza"
   },
-
-  "marca": {
-    "nombre": "Luxor",
-    "subtitulo": "Events & Media",
-    "descripcion_footer": "Fotografía, video y experiencias interactivas para eventos sociales y corporativos en CDMX. Más de 25 años de experiencia a tu servicio.",
-    "copyright": "© 2025 Luxor Foto y Video. Todos los derechos reservados."
+  "nav": {
+    "links": [
+      {
+        "texto": "Servicios",
+        "href": "#servicios"
+      },
+      {
+        "texto": "Cabinas",
+        "href": "#cabinas"
+      },
+      {
+        "texto": "Paquetes",
+        "href": "#paquetes"
+      },
+      {
+        "texto": "Galería",
+        "href": "#galeria"
+      },
+      {
+        "texto": "Contacto",
+        "href": "#contacto"
+      }
+    ],
+    "cta_texto": "Cotizar ahora"
   },
-
-  "whatsapp": {
-    "numero": "5540444341",
-    "mensaje_default": "Hola, me gustaría cotizar sus servicios para mi evento.",
-    "mensaje_alianza": "Hola, me interesa una propuesta de alianza para mi salón o empresa."
+  "contacto_seccion": {
+    "eyebrow": "Contacto",
+    "titulo": "Cuéntanos sobre tu evento y te <em>ayudamos a elegir</em> el servicio ideal",
+    "btn_whatsapp": "Cotizar por WhatsApp",
+    "tipos_evento": [
+      "Boda",
+      "XV Años",
+      "Bautizo",
+      "Cumpleaños",
+      "Graduación",
+      "Evento Corporativo",
+      "Otro"
+    ]
   },
-
+  "porque": {
+    "eyebrow": "¿Por qué elegir Luxor?",
+    "titulo": "Confianza y calidad en <em>cada detalle</em>",
+    "imagen": "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80",
+    "imagen_alt": "Luxor experiencia profesional",
+    "badge_numero": "25+",
+    "badge_texto": "Años",
+    "items": [
+      {
+        "icono": "◈",
+        "titulo": "Más de 25 años de experiencia",
+        "texto": "Hemos documentado miles de eventos. Conocemos cada tipo de celebración y sabemos cómo capturar los momentos que más importan."
+      },
+      {
+        "icono": "◻",
+        "titulo": "Equipo profesional y dedicado",
+        "texto": "Fotógrafos, videógrafos y operadores especializados en eventos. Coordinación puntual antes, durante y después de tu celebración."
+      },
+      {
+        "icono": "▷",
+        "titulo": "Entrega digital garantizada",
+        "texto": "Todo tu material en formato digital de alta resolución. USB, enlace de descarga o envío directo a tu correo. Sin complicaciones."
+      },
+      {
+        "icono": "✦",
+        "titulo": "Experiencias personalizadas",
+        "texto": "Adaptamos cada servicio a tu evento, presupuesto y expectativas. No hay dos eventos iguales, y no trabajamos con paquetes genéricos."
+      }
+    ]
+  },
   "contacto": {
     "telefono_display": "55 4044 4341",
     "telefono_link": "5540444341",
@@ -28,140 +90,11 @@
     "zona_cobertura": "CDMX · Estado de México · Hidalgo",
     "nota_respuesta": "Respondemos en horario de oficina. Para eventos urgentes, menciona tu fecha en el mensaje."
   },
-
-  "nav": {
-    "links": [
-      { "texto": "Servicios", "href": "#servicios" },
-      { "texto": "Cabinas",   "href": "#cabinas"   },
-      { "texto": "Paquetes",  "href": "#paquetes"  },
-      { "texto": "Galería",   "href": "#galeria"   },
-      { "texto": "Contacto",  "href": "#contacto"  }
-    ],
-    "cta_texto": "Cotizar ahora"
+  "whatsapp": {
+    "numero": "5540444341",
+    "mensaje_default": "Hola, me gustaría cotizar sus servicios para mi evento.",
+    "mensaje_alianza": "Hola, me interesa una propuesta de alianza para mi salón o empresa."
   },
-
-  "hero": {
-    "eyebrow": "Luxor Events & Media",
-    "titulo": "Fotografía, video y <em>experiencias interactivas</em> para eventos inolvidables",
-    "subtitulo": "Más de 25 años capturando momentos únicos para bodas, XV años, eventos sociales y corporativos en CDMX y área metropolitana.",
-    "btn_principal": "Cotizar por WhatsApp",
-    "btn_secundario": "Ver servicios",
-    "imagen": "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=1200&q=80",
-    "badge_numero": "25+",
-    "badge_texto": "Años de experiencia"
-  },
-
-  "trust": [
-    { "numero": "+25",                    "label": "Años de trayectoria"          },
-    { "numero": "+5,000",                 "label": "Eventos realizados"           },
-    { "numero": "CDMX · EDOMEX · HGO",   "label": "Cobertura regional"           },
-    { "numero": "100%",                   "label": "Entrega digital garantizada"  }
-  ],
-
-  "servicios": {
-    "eyebrow": "Nuestros servicios",
-    "titulo": "Todo lo que necesitas para <em>un evento memorable</em>",
-    "subtitulo": "Desde fotografía profesional hasta experiencias interactivas con cabinas. Diseñamos cada servicio para que tus invitados vivan momentos únicos.",
-    "items": [
-      {
-        "icono": "◈",
-        "nombre": "Fotografía",
-        "descripcion": "Secuencia fotográfica completa, fotos ilimitadas y cobertura de 5 horas. Entrega digital por USB, enlace o correo. Ideal para bodas, XV años y bautizos.",
-        "imagen": "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=600&q=80",
-        "imagen_alt": "Fotografía para eventos",
-        "btn_texto": "Solicitar cotización",
-        "wa_mensaje": "Hola, me interesa cotizar fotografía para mi evento."
-      },
-      {
-        "icono": "▷",
-        "nombre": "Video HD",
-        "descripcion": "Video editado y musicalizado con cobertura de momentos clave. Entrega digital incluida. Opción de dron disponible con costo adicional.",
-        "imagen": "https://images.unsplash.com/photo-1593784991095-a205069470b6?w=600&q=80",
-        "imagen_alt": "Video HD para eventos",
-        "btn_texto": "Solicitar cotización",
-        "wa_mensaje": "Hola, me interesa cotizar video para mi evento."
-      },
-      {
-        "icono": "◻",
-        "nombre": "Foto Panorámica",
-        "descripcion": "Ideal para graduaciones, empresas y grupos numerosos. Bancos o gradas según el número de personas. Archivo digital e impresión incluidos.",
-        "imagen": "https://images.unsplash.com/photo-1511578314322-379afb476865?w=600&q=80",
-        "imagen_alt": "Foto Panorámica",
-        "btn_texto": "Solicitar cotización",
-        "wa_mensaje": "Hola, me interesa cotizar foto panorámica."
-      },
-      {
-        "icono": "✦",
-        "nombre": "Alfombra Roja",
-        "descripcion": "Recepción estilo Hollywood con fondo personalizado, luces profesionales y fotos ilimitadas durante el servicio. Experiencia premium para tus invitados.",
-        "imagen": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=600&q=80",
-        "imagen_alt": "Alfombra Roja",
-        "btn_texto": "Solicitar cotización",
-        "wa_mensaje": "Hola, me interesa cotizar alfombra roja para mi evento."
-      }
-    ]
-  },
-
-  "cabinas": {
-    "eyebrow": "Cabinas interactivas",
-    "titulo": "Experiencias que tus <em>invitados recordarán</em>",
-    "subtitulo": "Cuatro opciones diseñadas para distintos tipos de evento. Descarga inmediata por QR, entretenimiento garantizado y recuerdos digitales para todos.",
-    "items": [
-      {
-        "tag": "Hasta 4 personas",
-        "nombre": "Cabina 360°",
-        "imagen": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&q=80",
-        "caracteristicas": [
-          "Videos 360° descargables al momento",
-          "Descarga por QR o AirDrop",
-          "Link con todos los videos al finalizar",
-          "Ideal para eventos sociales"
-        ],
-        "btn_texto": "Cotizar cabina →",
-        "wa_mensaje": "Hola, me interesa la Cabina 360°."
-      },
-      {
-        "tag": "Hasta 10 personas",
-        "nombre": "Cabina 360° Aérea",
-        "imagen": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
-        "caracteristicas": [
-          "Videos 360° para grupos grandes",
-          "Descarga por QR o AirDrop",
-          "Experiencia premium para eventos grandes",
-          "Ideal para eventos corporativos"
-        ],
-        "btn_texto": "Cotizar cabina →",
-        "wa_mensaje": "Hola, me interesa la Cabina 360° Aérea."
-      },
-      {
-        "tag": "Impresión ilimitada",
-        "nombre": "Cabina Inflable",
-        "imagen": "https://images.unsplash.com/photo-1529543544282-ea669407fca3?w=800&q=80",
-        "caracteristicas": [
-          "Fotos impresas ilimitadas — formato 2x6",
-          "USB con todas las fotos del evento",
-          "Forma única de cámara fotográfica",
-          "Ideal para fiestas y activaciones"
-        ],
-        "btn_texto": "Cotizar cabina →",
-        "wa_mensaje": "Hola, me interesa la Cabina Inflable."
-      },
-      {
-        "tag": "Experiencia elegante",
-        "nombre": "Cabina Espejo",
-        "imagen": "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=800&q=80",
-        "caracteristicas": [
-          "Fotos impresas ilimitadas — formato 4x6",
-          "Experiencia interactiva y elegante",
-          "USB con todas las fotos tomadas",
-          "Ideal para bodas y XV años"
-        ],
-        "btn_texto": "Cotizar cabina →",
-        "wa_mensaje": "Hola, me interesa la Cabina Espejo."
-      }
-    ]
-  },
-
   "paquetes": {
     "eyebrow": "Paquetes recomendados",
     "titulo": "Combinaciones diseñadas para <em>cada ocasión</em>",
@@ -222,87 +155,6 @@
       }
     ]
   },
-
-  "porque": {
-    "eyebrow": "¿Por qué elegir Luxor?",
-    "titulo": "Confianza y calidad en <em>cada detalle</em>",
-    "imagen": "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80",
-    "imagen_alt": "Luxor experiencia profesional",
-    "badge_numero": "25+",
-    "badge_texto": "Años",
-    "items": [
-      {
-        "icono": "◈",
-        "titulo": "Más de 25 años de experiencia",
-        "texto": "Hemos documentado miles de eventos. Conocemos cada tipo de celebración y sabemos cómo capturar los momentos que más importan."
-      },
-      {
-        "icono": "◻",
-        "titulo": "Equipo profesional y dedicado",
-        "texto": "Fotógrafos, videógrafos y operadores especializados en eventos. Coordinación puntual antes, durante y después de tu celebración."
-      },
-      {
-        "icono": "▷",
-        "titulo": "Entrega digital garantizada",
-        "texto": "Todo tu material en formato digital de alta resolución. USB, enlace de descarga o envío directo a tu correo. Sin complicaciones."
-      },
-      {
-        "icono": "✦",
-        "titulo": "Experiencias personalizadas",
-        "texto": "Adaptamos cada servicio a tu evento, presupuesto y expectativas. No hay dos eventos iguales, y no trabajamos con paquetes genéricos."
-      }
-    ]
-  },
-
-  "galeria": {
-    "eyebrow": "Galería",
-    "titulo": "Momentos que <em>hemos capturado</em>",
-    "imagenes": [
-      { "url": "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=700&q=80",  "alt": "Boda elegante",      "cols": 5 },
-      { "url": "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=500&q=80",  "alt": "XV años",           "cols": 4 },
-      { "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=500&q=80",  "alt": "Evento corporativo", "cols": 3 },
-      { "url": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=900&q=80",  "alt": "Cabina 360",        "cols": 6 },
-      { "url": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=400&q=80",  "alt": "Bautizo",           "cols": 3 },
-      { "url": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=400&q=80",  "alt": "Graduación",        "cols": 3 },
-      { "url": "https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=400&q=80",  "alt": "Evento social",     "cols": 3 }
-    ]
-  },
-
-  "alianzas": {
-    "eyebrow": "Alianzas estratégicas",
-    "pill": "Para salones & empresas",
-    "titulo": "Socios de confianza para <em>cada venue</em>",
-    "texto": "Creamos alianzas estratégicas con salones, venues y empresas para ofrecer fotografía, video, cabinas interactivas, contenido digital y experiencias visuales para sus eventos. Tus clientes merecen un servicio de primer nivel.",
-    "cita": "Nuestro equipo trabaja de la mano con cada venue para garantizar una experiencia visual de primer nivel en cada evento que organizan.",
-    "tags": ["Salones de Eventos", "Empresas Corporativas", "Agencias de Eventos", "Hoteles & Venues"],
-    "btn_texto": "Solicitar propuesta de alianza"
-  },
-
-  "testimonios": {
-    "eyebrow": "Testimonios",
-    "titulo": "Lo que dicen quienes <em>confían en nosotros</em>",
-    "items": [
-      {
-        "texto": "El equipo de Luxor hizo exactamente lo que necesitábamos para los XV años de mi hija. Las fotos quedaron preciosas y la cabina fue el éxito de la noche. Todos los invitados la disfrutaron.",
-        "nombre": "Martha González",
-        "evento": "XV Años · CDMX",
-        "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&q=80"
-      },
-      {
-        "texto": "Profesionales en todo sentido. La entrega fue puntual, el video quedó increíble y la atención desde la primera llamada fue muy cálida. Definitivamente los recomiendo para bodas.",
-        "nombre": "Carlos & Andrea",
-        "evento": "Boda · Estado de México",
-        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80"
-      },
-      {
-        "texto": "Contratamos la cabina 360° aérea para nuestro evento corporativo y fue todo un éxito. Los empleados la amaron y el material quedó perfecto para nuestras redes sociales.",
-        "nombre": "Ing. Roberto Díaz",
-        "evento": "Evento Corporativo · CDMX",
-        "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100&q=80"
-      }
-    ]
-  },
-
   "faq": {
     "eyebrow": "Preguntas frecuentes",
     "titulo": "Todo lo que necesitas <em>saber antes</em>",
@@ -341,11 +193,212 @@
       }
     ]
   },
-
-  "contacto_seccion": {
-    "eyebrow": "Contacto",
-    "titulo": "Cuéntanos sobre tu evento y te <em>ayudamos a elegir</em> el servicio ideal",
-    "btn_whatsapp": "Cotizar por WhatsApp",
-    "tipos_evento": ["Boda", "XV Años", "Bautizo", "Cumpleaños", "Graduación", "Evento Corporativo", "Otro"]
+  "galeria": {
+    "eyebrow": "Galería",
+    "titulo": "Momentos que <em>hemos capturado</em>",
+    "imagenes": [
+      {
+        "url": "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=700&q=80",
+        "alt": "Boda elegante",
+        "cols": 5
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=500&q=80",
+        "alt": "XV años",
+        "cols": 4
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=500&q=80",
+        "alt": "Evento corporativo",
+        "cols": 3
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=900&q=80",
+        "alt": "Cabina 360",
+        "cols": 6
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=400&q=80",
+        "alt": "Bautizo",
+        "cols": 3
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=400&q=80",
+        "alt": "Graduación",
+        "cols": 3
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=400&q=80",
+        "alt": "Evento social",
+        "cols": 3
+      }
+    ]
+  },
+  "testimonios": {
+    "eyebrow": "Testimonios",
+    "titulo": "Lo que dicen quienes <em>confían en nosotros</em>",
+    "items": [
+      {
+        "texto": "El equipo de Luxor hizo exactamente lo que necesitábamos para los XV años de mi hija. Las fotos quedaron preciosas y la cabina fue el éxito de la noche. Todos los invitados la disfrutaron.",
+        "nombre": "Martha González",
+        "evento": "XV Años · CDMX",
+        "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&q=80"
+      },
+      {
+        "texto": "Profesionales en todo sentido. La entrega fue puntual, el video quedó increíble y la atención desde la primera llamada fue muy cálida. Definitivamente los recomiendo para bodas.",
+        "nombre": "Carlos & Andrea",
+        "evento": "Boda · Estado de México",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80"
+      },
+      {
+        "texto": "Contratamos la cabina 360° aérea para nuestro evento corporativo y fue todo un éxito. Los empleados la amaron y el material quedó perfecto para nuestras redes sociales.",
+        "nombre": "Ing. Roberto Díaz",
+        "evento": "Evento Corporativo · CDMX",
+        "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100&q=80"
+      }
+    ]
+  },
+  "trust": [
+    {
+      "numero": "+25",
+      "label": "Años de trayectoria"
+    },
+    {
+      "numero": "+5,000",
+      "label": "Eventos realizados"
+    },
+    {
+      "numero": "CDMX · EDOMEX ",
+      "label": "Cobertura regional"
+    },
+    {
+      "numero": "100%",
+      "label": "Entrega digital garantizada"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Luxor Events & Media",
+    "titulo": "Fotografía, video y <em>experiencias interactivas</em> para eventos inolvidables",
+    "subtitulo": "Más de 25 años capturando momentos únicos para bodas, XV años, eventos sociales y corporativos en CDMX y área metropolitana.",
+    "btn_principal": "Cotizar por WhatsApp",
+    "btn_secundario": "Ver servicios",
+    "imagen": "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=1200&q=80",
+    "badge_numero": "25+",
+    "badge_texto": "Años de experiencia"
+  },
+  "cabinas": {
+    "eyebrow": "Cabinas interactivas",
+    "titulo": "Experiencias que tus <em>invitados recordarán</em>",
+    "subtitulo": "Cuatro opciones diseñadas para distintos tipos de evento. Descarga inmediata por QR, entretenimiento garantizado y recuerdos digitales para todos.",
+    "items": [
+      {
+        "tag": "Hasta 4 personas",
+        "nombre": "Cabina 360°",
+        "imagen": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&q=80",
+        "caracteristicas": [
+          "Videos 360° descargables al momento",
+          "Descarga por QR o AirDrop",
+          "Link con todos los videos al finalizar",
+          "Ideal para eventos sociales"
+        ],
+        "btn_texto": "Cotizar cabina →",
+        "wa_mensaje": "Hola, me interesa la Cabina 360°."
+      },
+      {
+        "tag": "Hasta 10 personas",
+        "nombre": "Cabina 360° Aérea",
+        "imagen": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+        "caracteristicas": [
+          "Videos 360° para grupos grandes",
+          "Descarga por QR o AirDrop",
+          "Experiencia premium para eventos grandes",
+          "Ideal para eventos corporativos"
+        ],
+        "btn_texto": "Cotizar cabina →",
+        "wa_mensaje": "Hola, me interesa la Cabina 360° Aérea."
+      },
+      {
+        "tag": "Impresión ilimitada",
+        "nombre": "Cabina Inflable",
+        "imagen": "https://images.unsplash.com/photo-1529543544282-ea669407fca3?w=800&q=80",
+        "caracteristicas": [
+          "Fotos impresas ilimitadas — formato 2x6",
+          "USB con todas las fotos del evento",
+          "Forma única de cámara fotográfica",
+          "Ideal para fiestas y activaciones"
+        ],
+        "btn_texto": "Cotizar cabina →",
+        "wa_mensaje": "Hola, me interesa la Cabina Inflable."
+      },
+      {
+        "tag": "Experiencia elegante",
+        "nombre": "Cabina Espejo",
+        "imagen": "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=800&q=80",
+        "caracteristicas": [
+          "Fotos impresas ilimitadas — formato 4x6",
+          "Experiencia interactiva y elegante",
+          "USB con todas las fotos tomadas",
+          "Ideal para bodas y XV años"
+        ],
+        "btn_texto": "Cotizar cabina →",
+        "wa_mensaje": "Hola, me interesa la Cabina Espejo."
+      }
+    ]
+  },
+  "marca": {
+    "nombre": "Luxor",
+    "subtitulo": "Events & Media",
+    "descripcion_footer": "Fotografía, video y experiencias interactivas para eventos sociales y corporativos en CDMX. Más de 25 años de experiencia a tu servicio.",
+    "copyright": "© 2025 Luxor Foto y Video. Todos los derechos reservados."
+  },
+  "seo": {
+    "title": "Luxor Foto y Video | Fotografía, Video y Cabinas para Eventos",
+    "description": "Servicios profesionales de fotografía, video y cabinas interactivas para bodas, XV años, bautizos, eventos sociales y corporativos. Más de 25 años de experiencia en CDMX.",
+    "keywords": "fotografía y video para eventos CDMX, cabina 360 para eventos, cabina fotográfica XV años, fotógrafo bodas CDMX, video eventos empresariales, cabina espejo eventos, cabina inflable fiestas",
+    "og_title": "Luxor Foto y Video | Fotografía, Video y Cabinas para Eventos",
+    "og_description": "Más de 25 años capturando momentos únicos. Fotografía, video y cabinas interactivas para eventos sociales y corporativos en CDMX."
+  },
+  "servicios": {
+    "eyebrow": "Nuestros servicios",
+    "titulo": "Todo lo que necesitas para <em>un evento memorable</em>",
+    "subtitulo": "Desde fotografía profesional hasta experiencias interactivas con cabinas. Diseñamos cada servicio para que tus invitados vivan momentos únicos.",
+    "items": [
+      {
+        "icono": "◈",
+        "nombre": "Fotografía",
+        "descripcion": "Secuencia fotográfica completa, fotos ilimitadas y cobertura de 5 horas. Entrega digital por USB, enlace o correo. Ideal para bodas, XV años y bautizos.",
+        "imagen": "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=600&q=80",
+        "imagen_alt": "Fotografía para eventos",
+        "btn_texto": "Solicitar cotización",
+        "wa_mensaje": "Hola, me interesa cotizar fotografía para mi evento."
+      },
+      {
+        "icono": "▷",
+        "nombre": "Video HD",
+        "descripcion": "Video editado y musicalizado con cobertura de momentos clave. Entrega digital incluida. Opción de dron disponible con costo adicional.",
+        "imagen": "https://images.unsplash.com/photo-1593784991095-a205069470b6?w=600&q=80",
+        "imagen_alt": "Video HD para eventos",
+        "btn_texto": "Solicitar cotización",
+        "wa_mensaje": "Hola, me interesa cotizar video para mi evento."
+      },
+      {
+        "icono": "◻",
+        "nombre": "Foto Panorámica",
+        "descripcion": "Ideal para graduaciones, empresas y grupos numerosos. Bancos o gradas según el número de personas. Archivo digital e impresión incluidos.",
+        "imagen": "https://images.unsplash.com/photo-1511578314322-379afb476865?w=600&q=80",
+        "imagen_alt": "Foto Panorámica",
+        "btn_texto": "Solicitar cotización",
+        "wa_mensaje": "Hola, me interesa cotizar foto panorámica."
+      },
+      {
+        "icono": "✦",
+        "nombre": "Alfombra Roja",
+        "descripcion": "Recepción estilo Hollywood con fondo personalizado, luces profesionales y fotos ilimitadas durante el servicio. Experiencia premium para tus invitados.",
+        "imagen": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=600&q=80",
+        "imagen_alt": "Alfombra Roja",
+        "btn_texto": "Solicitar cotización",
+        "wa_mensaje": "Hola, me interesa cotizar alfombra roja para mi evento."
+      }
+    ]
   }
 }
