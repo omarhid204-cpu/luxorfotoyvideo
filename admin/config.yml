@@ -11,15 +11,14 @@ collections:
   - name: "contenido"
     label: "Contenido del sitio"
     files:
-
-      # ── SEO ──────────────────────────────────────────────────────────────
-      - name: "seo"
-        label: "SEO y metadatos"
+      - name: "home"
+        label: "Página principal"
         file: "content.json"
         fields:
           - label: "SEO"
             name: "seo"
             widget: "object"
+            collapsed: true
             fields:
               - { label: "Título de la página", name: "title", widget: "string" }
               - { label: "Descripción", name: "description", widget: "text" }
@@ -27,95 +26,96 @@ collections:
               - { label: "OG Título", name: "og_title", widget: "string" }
               - { label: "OG Descripción", name: "og_description", widget: "text" }
 
-      # ── GENERAL ──────────────────────────────────────────────────────────
-      - name: "general"
-        label: "Datos generales"
-        file: "content.json"
-        fields:
-          - label: "WhatsApp"
-            name: "whatsapp"
-            widget: "object"
-            fields:
-              - { label: "Número (sin + ni espacios, ej: 5540444341)", name: "numero", widget: "string" }
-              - { label: "Mensaje por defecto", name: "mensaje_default", widget: "string" }
-              - { label: "Mensaje de alianzas", name: "mensaje_alianza", widget: "string" }
-          - label: "Datos de contacto"
-            name: "contacto"
-            widget: "object"
-            fields:
-              - { label: "Teléfono (visible)", name: "telefono_display", widget: "string" }
-              - { label: "Teléfono (link, sin espacios)", name: "telefono_link", widget: "string" }
-              - { label: "Sitio web (visible)", name: "sitio_web", widget: "string" }
-              - { label: "Sitio web (URL completa)", name: "sitio_web_url", widget: "string" }
-              - { label: "Zona de cobertura", name: "zona_cobertura", widget: "string" }
-              - { label: "Nota de respuesta", name: "nota_respuesta", widget: "string" }
           - label: "Marca"
             name: "marca"
             widget: "object"
+            collapsed: true
             fields:
               - { label: "Nombre", name: "nombre", widget: "string" }
               - { label: "Subtítulo", name: "subtitulo", widget: "string" }
               - { label: "Descripción footer", name: "descripcion_footer", widget: "text" }
               - { label: "Copyright", name: "copyright", widget: "string" }
 
-      # ── HERO ─────────────────────────────────────────────────────────────
-      - name: "hero"
-        label: "Hero (portada)"
-        file: "content.json"
-        fields:
-          - label: "Hero"
+          - label: "WhatsApp"
+            name: "whatsapp"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Número", name: "numero", widget: "string" }
+              - { label: "Mensaje por defecto", name: "mensaje_default", widget: "string" }
+              - { label: "Mensaje de alianzas", name: "mensaje_alianza", widget: "string" }
+
+          - label: "Contacto"
+            name: "contacto"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Teléfono visible", name: "telefono_display", widget: "string" }
+              - { label: "Teléfono link", name: "telefono_link", widget: "string" }
+              - { label: "Sitio web", name: "sitio_web", widget: "string" }
+              - { label: "Sitio web URL", name: "sitio_web_url", widget: "string" }
+              - { label: "Zona de cobertura", name: "zona_cobertura", widget: "string" }
+              - { label: "Nota de respuesta", name: "nota_respuesta", widget: "string" }
+
+          - label: "Menú"
+            name: "nav"
+            widget: "object"
+            collapsed: true
+            fields:
+              - label: "Links"
+                name: "links"
+                widget: "list"
+                fields:
+                  - { label: "Texto", name: "texto", widget: "string" }
+                  - { label: "Enlace", name: "href", widget: "string" }
+              - { label: "Texto CTA", name: "cta_texto", widget: "string" }
+
+          - label: "Hero / Portada"
             name: "hero"
             widget: "object"
+            collapsed: true
             fields:
-              - { label: "Eyebrow (texto pequeño arriba)", name: "eyebrow", widget: "string" }
-              - { label: "Título principal (puedes usar <em>texto</em> para dorado)", name: "titulo", widget: "string" }
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Título", name: "titulo", widget: "string" }
               - { label: "Subtítulo", name: "subtitulo", widget: "text" }
-              - { label: "Texto botón principal (WhatsApp)", name: "btn_principal", widget: "string" }
-              - { label: "Texto botón secundario", name: "btn_secundario", widget: "string" }
-              - { label: "Imagen de fondo (URL)", name: "imagen", widget: "image" }
-              - { label: "Número del badge (ej: 25+)", name: "badge_numero", widget: "string" }
-              - { label: "Texto del badge (ej: Años de experiencia)", name: "badge_texto", widget: "string" }
+              - { label: "Botón principal", name: "btn_principal", widget: "string" }
+              - { label: "Botón secundario", name: "btn_secundario", widget: "string" }
+              - { label: "Imagen", name: "imagen", widget: "image" }
+              - { label: "Número badge", name: "badge_numero", widget: "string" }
+              - { label: "Texto badge", name: "badge_texto", widget: "string" }
+
           - label: "Barra de confianza"
             name: "trust"
             widget: "list"
-            label_singular: "Estadística"
+            collapsed: true
             fields:
-              - { label: "Número / Texto grande", name: "numero", widget: "string" }
+              - { label: "Número", name: "numero", widget: "string" }
               - { label: "Descripción", name: "label", widget: "string" }
 
-      # ── SERVICIOS ────────────────────────────────────────────────────────
-      - name: "servicios"
-        label: "Servicios"
-        file: "content.json"
-        fields:
           - label: "Servicios"
             name: "servicios"
             widget: "object"
+            collapsed: true
             fields:
               - { label: "Eyebrow", name: "eyebrow", widget: "string" }
-              - { label: "Título (puedes usar <em>texto</em>)", name: "titulo", widget: "string" }
+              - { label: "Título", name: "titulo", widget: "string" }
               - { label: "Subtítulo", name: "subtitulo", widget: "text" }
               - label: "Lista de servicios"
                 name: "items"
                 widget: "list"
-                label_singular: "Servicio"
                 fields:
-                  - { label: "Ícono (símbolo)", name: "icono", widget: "string" }
-                  - { label: "Nombre del servicio", name: "nombre", widget: "string" }
+                  - { label: "Ícono", name: "icono", widget: "string" }
+                  - { label: "Nombre", name: "nombre", widget: "string" }
                   - { label: "Descripción", name: "descripcion", widget: "text" }
                   - { label: "Imagen", name: "imagen", widget: "image" }
-                  - { label: "Texto alternativo de imagen", name: "imagen_alt", widget: "string" }
-                  - { label: "Texto del botón", name: "btn_texto", widget: "string" }
-                  - { label: "Mensaje de WhatsApp", name: "wa_mensaje", widget: "string" }
+                  - { label: "Alt imagen", name: "imagen_alt", widget: "string" }
+                  - { label: "Texto botón", name: "btn_texto", widget: "string" }
+                  - { label: "Mensaje WhatsApp", name: "wa_mensaje", widget: "string" }
 
-      # ── CABINAS ──────────────────────────────────────────────────────────
-      - name: "cabinas"
-        label: "Cabinas"
-        file: "content.json"
-        fields:
           - label: "Cabinas"
             name: "cabinas"
             widget: "object"
+            collapsed: true
             fields:
               - { label: "Eyebrow", name: "eyebrow", widget: "string" }
               - { label: "Título", name: "titulo", widget: "string" }
@@ -123,26 +123,21 @@ collections:
               - label: "Lista de cabinas"
                 name: "items"
                 widget: "list"
-                label_singular: "Cabina"
                 fields:
-                  - { label: "Tag (ej: Hasta 4 personas)", name: "tag", widget: "string" }
+                  - { label: "Tag", name: "tag", widget: "string" }
                   - { label: "Nombre", name: "nombre", widget: "string" }
-                  - { label: "Imagen de fondo", name: "imagen", widget: "image" }
+                  - { label: "Imagen", name: "imagen", widget: "image" }
                   - label: "Características"
                     name: "caracteristicas"
                     widget: "list"
                     field: { label: "Característica", name: "item", widget: "string" }
-                  - { label: "Texto del botón", name: "btn_texto", widget: "string" }
-                  - { label: "Mensaje de WhatsApp", name: "wa_mensaje", widget: "string" }
+                  - { label: "Texto botón", name: "btn_texto", widget: "string" }
+                  - { label: "Mensaje WhatsApp", name: "wa_mensaje", widget: "string" }
 
-      # ── PAQUETES ─────────────────────────────────────────────────────────
-      - name: "paquetes"
-        label: "Paquetes"
-        file: "content.json"
-        fields:
           - label: "Paquetes"
             name: "paquetes"
             widget: "object"
+            collapsed: true
             fields:
               - { label: "Eyebrow", name: "eyebrow", widget: "string" }
               - { label: "Título", name: "titulo", widget: "string" }
@@ -150,75 +145,107 @@ collections:
               - label: "Lista de paquetes"
                 name: "items"
                 widget: "list"
-                label_singular: "Paquete"
                 fields:
-                  - { label: "Tipo de evento", name: "evento", widget: "string" }
-                  - { label: "Nombre del paquete", name: "nombre", widget: "string" }
-                  - { label: "¿Es el paquete destacado?", name: "destacado", widget: "boolean", default: false }
-                  - { label: "Texto del badge (si está destacado)", name: "badge", widget: "string", required: false }
-                  - label: "Qué incluye"
+                  - { label: "Evento", name: "evento", widget: "string" }
+                  - { label: "Nombre", name: "nombre", widget: "string" }
+                  - { label: "Destacado", name: "destacado", widget: "boolean", default: false }
+                  - { label: "Badge", name: "badge", widget: "string", required: false }
+                  - label: "Incluye"
                     name: "incluye"
                     widget: "list"
                     field: { label: "Incluye", name: "item", widget: "string" }
-                  - { label: "Texto del botón", name: "btn_texto", widget: "string" }
-                  - { label: "Mensaje de WhatsApp", name: "wa_mensaje", widget: "string" }
+                  - { label: "Texto botón", name: "btn_texto", widget: "string" }
+                  - { label: "Mensaje WhatsApp", name: "wa_mensaje", widget: "string" }
 
-      # ── TESTIMONIOS ──────────────────────────────────────────────────────
-      - name: "testimonios"
-        label: "Testimonios"
-        file: "content.json"
-        fields:
-          - label: "Testimonios"
-            name: "testimonios"
+          - label: "Por qué elegir Luxor"
+            name: "porque"
             widget: "object"
+            collapsed: true
             fields:
               - { label: "Eyebrow", name: "eyebrow", widget: "string" }
               - { label: "Título", name: "titulo", widget: "string" }
-              - label: "Lista de testimonios"
+              - { label: "Imagen", name: "imagen", widget: "image" }
+              - { label: "Alt imagen", name: "imagen_alt", widget: "string" }
+              - { label: "Número badge", name: "badge_numero", widget: "string" }
+              - { label: "Texto badge", name: "badge_texto", widget: "string" }
+              - label: "Razones"
                 name: "items"
                 widget: "list"
-                label_singular: "Testimonio"
                 fields:
-                  - { label: "Texto del testimonio", name: "texto", widget: "text" }
-                  - { label: "Nombre del cliente", name: "nombre", widget: "string" }
-                  - { label: "Evento (ej: Boda · CDMX)", name: "evento", widget: "string" }
-                  - { label: "Foto del cliente (URL)", name: "avatar", widget: "image" }
+                  - { label: "Ícono", name: "icono", widget: "string" }
+                  - { label: "Título", name: "titulo", widget: "string" }
+                  - { label: "Texto", name: "texto", widget: "text" }
 
-      # ── FAQ ──────────────────────────────────────────────────────────────
-      - name: "faq"
-        label: "Preguntas frecuentes"
-        file: "content.json"
-        fields:
-          - label: "FAQ"
-            name: "faq"
-            widget: "object"
-            fields:
-              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
-              - { label: "Título", name: "titulo", widget: "string" }
-              - label: "Preguntas y respuestas"
-                name: "items"
-                widget: "list"
-                label_singular: "Pregunta"
-                fields:
-                  - { label: "Pregunta", name: "pregunta", widget: "string" }
-                  - { label: "Respuesta", name: "respuesta", widget: "text" }
-
-      # ── GALERÍA ──────────────────────────────────────────────────────────
-      - name: "galeria"
-        label: "Galería"
-        file: "content.json"
-        fields:
           - label: "Galería"
             name: "galeria"
             widget: "object"
+            collapsed: true
             fields:
               - { label: "Eyebrow", name: "eyebrow", widget: "string" }
               - { label: "Título", name: "titulo", widget: "string" }
               - label: "Imágenes"
                 name: "imagenes"
                 widget: "list"
-                label_singular: "Imagen"
                 fields:
                   - { label: "Imagen", name: "url", widget: "image" }
-                  - { label: "Texto alternativo", name: "alt", widget: "string" }
-                  - { label: "Columnas (3=pequeño, 4=mediano, 5=grande, 6=muy grande)", name: "cols", widget: "number", default: 4 }
+                  - { label: "Alt", name: "alt", widget: "string" }
+                  - { label: "Columnas", name: "cols", widget: "number", default: 4 }
+
+          - label: "Alianzas"
+            name: "alianzas"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Pill", name: "pill", widget: "string" }
+              - { label: "Título", name: "titulo", widget: "string" }
+              - { label: "Texto", name: "texto", widget: "text" }
+              - { label: "Cita", name: "cita", widget: "text" }
+              - label: "Tags"
+                name: "tags"
+                widget: "list"
+                field: { label: "Tag", name: "item", widget: "string" }
+              - { label: "Botón", name: "btn_texto", widget: "string" }
+
+          - label: "Testimonios"
+            name: "testimonios"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Título", name: "titulo", widget: "string" }
+              - label: "Lista de testimonios"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Texto", name: "texto", widget: "text" }
+                  - { label: "Nombre", name: "nombre", widget: "string" }
+                  - { label: "Evento", name: "evento", widget: "string" }
+                  - { label: "Avatar", name: "avatar", widget: "image" }
+
+          - label: "Preguntas frecuentes"
+            name: "faq"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Título", name: "titulo", widget: "string" }
+              - label: "Preguntas"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Pregunta", name: "pregunta", widget: "string" }
+                  - { label: "Respuesta", name: "respuesta", widget: "text" }
+
+          - label: "Contacto sección"
+            name: "contacto_seccion"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Título", name: "titulo", widget: "string" }
+              - { label: "Botón WhatsApp", name: "btn_whatsapp", widget: "string" }
+              - label: "Tipos de evento"
+                name: "tipos_evento"
+                widget: "list"
+                field: { label: "Tipo", name: "item", widget: "string" }
